@@ -32,8 +32,6 @@ Support other runtime platforms:
 
 - [ ] Windows
 - [ ] MacOS
-- [ ] Android
-- [ ] HTML5
 - [ ] Non-Ubuntu Linux
     + [ ] CentOS
     + [ ] Your favorite distro here
