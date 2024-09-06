@@ -28,16 +28,18 @@ that exercise is left to the reader, for now.
 
 ## TODO
 
-Support other platforms:
+Support other runtime platforms:
 
 - [ ] Windows
 - [ ] MacOS
 - [ ] Android
-- [ ] iOS
 - [ ] HTML5
 - [ ] Non-Ubuntu Linux
     + [ ] CentOS
     + [ ] Your favorite distro here
+
+My preferred deployment operating system is Ubuntu so I plan on mainly
+supporting that distro myself.
 
 ## References
 
