@@ -1,0 +1,20 @@
+name: Docker Image CI
+
+# This will ensure a docker container can be successfully built per commit
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image for ubuntu
+      run: docker build . --file ubuntu.Dockerfile --tag briancain/godot-ubuntu:$(date +%s)
