@@ -1,6 +1,8 @@
 # Godot 4.x Headless Server as a Container
 
 This repository contains a Dockerfile to build a Godot 4.x headless server container.
+It can be used for running Godot in headless mode as a standalone server for 
+things like multiplayer games running in The Cloud :cloud:.
 
 ## Usage
 
@@ -33,7 +35,9 @@ Support other platforms:
 - [ ] Android
 - [ ] iOS
 - [ ] HTML5
-- [ ] Non-ubuntu Linux
+- [ ] Non-Ubuntu Linux
+    + [ ] CentOS
+    + [ ] Your favorite distro here
 
 ## References
 
